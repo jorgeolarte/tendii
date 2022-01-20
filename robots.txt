@@ -1,0 +1,4 @@
+Sitemap: http://tiendaemprendedores.com/sitemap.xml
+User-agent:*
+Disallow: /zona/nuevo_producto
+Disallow: /zona/admin

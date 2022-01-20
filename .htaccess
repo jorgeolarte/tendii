@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+Redirect 301 /1ra-noche-di-papaya-fracasos-confesiones.php https://www.emprendedorescartago.com/
+Redirect 301 /2da-escuela-comunica-tu-proposito-para-enamorar-a-tus-clientes.php https://www.emprendedorescartago.com/
+Redirect 301 /3ra-escuela-pitch-lanzate-a-la-accion.php https://www.emprendedorescartago.com/
+Redirect 301 /4ta-escuela-la-aventura-comienza.php https://www.emprendedorescartago.com/
+Redirect 301 /5to-networking-tejiendo-relaciones-de-valor.php https://www.emprendedorescartago.com/
+Redirect 301 /6ta-natillada-networking.php https://www.emprendedorescartago.com/
+Redirect 301 /7mo-networking-tribu-de-emprendedores.php https://www.emprendedorescartago.com/
+Redirect 301 /finanzas-para-emprendedores.php https://www.emprendedorescartago.com/
+
+## I need more memory to upload large image
+<IfModule mod_php5.c>
+    php_value memory_limit 256M  ## or whatever you need
+</IfModule>
+

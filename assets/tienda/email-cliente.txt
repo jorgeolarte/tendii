@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Confirmación del pedido</title>
+</head>
+
+<body>
+    <h1>Confirmación de tu pedido</h1>
+    <p>Hola {{cliente}}:</p>
+    <p>A continuación el detalle de tu pedido:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Unidad</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{detalles}}
+            <tr>
+                <td colspan="2">&nbsp;</td>
+                <td>Total a pagar</td>
+                <td>${{total}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Datos de entrega</h3>
+    <p>Tu pedido sera enviado a <br>
+    <b>Barrio:</b> {{barrio}}<br>
+    <b>Dirección:</b> {{direccion}}<br>
+    <b>Observaciones:</b> {{observaciones}}</p>
+
+</body>
+
+</html>

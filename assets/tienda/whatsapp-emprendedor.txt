@@ -1,0 +1,19 @@
+*TIENES UN NUEVO PEDIDO*
+
+Hey {{emprendedor}}
+
+A continuación la información del pedido
+
+*Producto    |   Cantidad    |   Unidad  |   Precio*
+{{detalles}}
+
+*Total a pagar: ${{total}}*
+
+*INFORMACIÓN DEL CLIENTE*
+Nombre: *{{cliente}}*
+Telefono: *{{telefono}}*
+
+Debes entregar el pedido en
+- Barrio: *{{barrio}}*
+- Dirección: *{{direccion}}*
+- Observaciones: *{{observaciones}}*
