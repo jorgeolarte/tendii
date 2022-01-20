@@ -27,6 +27,38 @@ Para correr este proyecto debes modificar las conexiones a la base de datos MYSQ
 
 `database`
 
+Configuración de variables con servicios externos.
+
+### Sendinblue
+
+`SENDINBLUE_EMAIL`
+
+`SENDINBLUE_EMAIL_PASSWORD`
+
+`SENDINBLUE_EMAIL_API_V3`
+
+`SENDINBLUE_SENDER_NAME`
+
+`SENDINBLUE_SENDER_EMAIL`
+
+### Mailchimp
+
+`MAILCHIMP_API_KEY`
+
+`MAILCHIMP_LIST_ID`
+
+### Here
+
+`HERE_API_KEY`
+
+### Twilio
+
+`TWILIO_ACCOUNT_SID`
+
+`TWILIO_AUTH_TOKEN`
+
+`TWILIO_WHATSAPP_FROM`
+
 ## Modelo de base de datos
 
 Carga el modelo de base de datos que encontraras en el archivo **db-model-20220120.zip**
