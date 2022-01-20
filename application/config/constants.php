@@ -92,19 +92,19 @@ defined('EXIT__AUTO_MAX')      or define('EXIT__AUTO_MAX', 125); // highest auto
 | Variables utilizadas para la conexión con el servidor de correos
 |
 */
-defined('SENDINBLUE_EMAIL')                 or define('SENDINBLUE_EMAIL', 'info@emprendedorescartago.com');
-defined('SENDINBLUE_EMAIL_PASSWORD')        or define('SENDINBLUE_EMAIL_PASSWORD', 'sO6MY9yIcbXJCdkU');
-defined('SENDINBLUE_EMAIL_API_V3')          or define('SENDINBLUE_EMAIL_API_V3', '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');
-defined('SENDINBLUE_SENDER_NAME')           or define('SENDINBLUE_SENDER_NAME', 'Tienda Emprendedores');
-defined('SENDINBLUE_SENDER_EMAIL')          or define('SENDINBLUE_SENDER_EMAIL', 'info@tiendaemprendedores.com');
+defined('SENDINBLUE_EMAIL')                 or define('SENDINBLUE_EMAIL', '');
+defined('SENDINBLUE_EMAIL_PASSWORD')        or define('SENDINBLUE_EMAIL_PASSWORD', '');
+defined('SENDINBLUE_EMAIL_API_V3')          or define('SENDINBLUE_EMAIL_API_V3', '');
+defined('SENDINBLUE_SENDER_NAME')           or define('SENDINBLUE_SENDER_NAME', '');
+defined('SENDINBLUE_SENDER_EMAIL')          or define('SENDINBLUE_SENDER_EMAIL', '');
 
-defined('MAILCHIMP_API_KEY')                or define('MAILCHIMP_API_KEY', 'e4e727622fb737dad0be5d30d6184f95-us3');
-defined('MAILCHIMP_LIST_ID')                or define('MAILCHIMP_LIST_ID', '284d09995a');
+defined('MAILCHIMP_API_KEY')                or define('MAILCHIMP_API_KEY', '');
+defined('MAILCHIMP_LIST_ID')                or define('MAILCHIMP_LIST_ID', '');
 
-defined('HERE_API_KEY')                     or define('HERE_API_KEY', 'JGAvbZRVNZtMZKiz5B3sFCOrLUmwjrt5iZUXY3nt1m0');
+defined('HERE_API_KEY')                     or define('HERE_API_KEY', '');
 
 defined('RESERVERD_WORDS')                  or define('RESERVERD_WORDS', array('blog', 'p', 'sv', 'co', 'explorar', 'login', 'iniciar-sesion', 'crear-tienda-online', 'registrarse', 'cerrar-sesion', 'pais', 'ciudad', 'admin', '404', 'carrito', 'tienda', 'index'));
 
-defined('TWILIO_ACCOUNT_SID')               or define('TWILIO_ACCOUNT_SID', 'AC790792a42a24a45ff480accb88176b3b');
-defined('TWILIO_AUTH_TOKEN')                or define('TWILIO_AUTH_TOKEN', '05b5f56247459b45c374d638d94d3270');
-defined('TWILIO_WHATSAPP_FROM')             or define('TWILIO_WHATSAPP_FROM', '+14155238886');
+defined('TWILIO_ACCOUNT_SID')               or define('TWILIO_ACCOUNT_SID', '');
+defined('TWILIO_AUTH_TOKEN')                or define('TWILIO_AUTH_TOKEN', '');
+defined('TWILIO_WHATSAPP_FROM')             or define('TWILIO_WHATSAPP_FROM', '');

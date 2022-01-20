@@ -1,7 +1,5 @@
 .DS_Store
 
-.vscode/*
-
 application/cache/*
 !application/cache/index.html
 
